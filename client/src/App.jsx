@@ -23,6 +23,11 @@ const App = () => {
           <Route path="/create-post" element={<CreatePost />} />
         </Routes>
       </main>
+      <footer className="w-full flex justify-start items-center bg-black sm:px-8 px-4 py-4 border-t border-gray-800">
+        <a href="#" className="w-28">
+          <img src={logo} alt="logo" className="w-full object-contain" />
+        </a>
+      </footer>
     </BrowserRouter>
   );
 };
